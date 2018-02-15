@@ -8,7 +8,6 @@ app.get('/:view', (req, res) => {
   res.sendFile(path.join(`${__dirname}${STATIC_CONTENT}/${view}`));
 });
 app.get('/find', (req, res) => {
-
   const responseText = Object.keys(req.query).reduce((message, key) => {
     return `${message} \n ${key} : ${req.query[key]},`;
   }, 'Your request includes: \n');
