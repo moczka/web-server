@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/moczka/web-server/issues"
   },
-  "homepage": "https://github.com/moczka/web-server#readme"
+  "homepage": "https://github.com/moczka/web-server#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
