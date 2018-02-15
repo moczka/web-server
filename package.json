@@ -1,0 +1,26 @@
+{
+  "name": "web-server",
+  "version": "0.0.1",
+  "description": "A multi-purpose web server for all my data persistance needs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moczka/web-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "web",
+    "server",
+    "javascript"
+  ],
+  "author": "Javier S Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moczka/web-server/issues"
+  },
+  "homepage": "https://github.com/moczka/web-server#readme"
+}
